@@ -15,7 +15,7 @@
 - Solidity for smart contracts
 - Hardhat for compiling, testing and deploying contract on testnet sepolia
 - Chai framework for testing contract functions on hardhat
-- ethers.js library to deploy contract and for event listening
+- ethers.js library to deploy contract
 
 ## Hardhat Setup
 
@@ -34,7 +34,7 @@ npm install '@nomiclabs/hardhat-etherscan'
 Run npm i @nomiclabs/hardhat-ethers to install plugin which brings Hardhat the Ethereum library ethers.js, which allows to interact with the Ethereum blockchain
 
 ```
-Run npm i @nomiclabs/hardhat-ethers
+npm i @nomiclabs/hardhat-ethers
 ```
 
 Run npx hardhat to run the hardhat in application.
